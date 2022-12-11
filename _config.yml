@@ -1,14 +1,14 @@
-title: 79号桃花源
+title: I'm whikk!
 #description: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://zhui.dev
+url:
 
 author:
-  name: 追
-  email: "RiverOnVenus囧gmail点com"
+  name: 
+  email: 
 
 twitter:
-  username: RiverOnVenus
+  username:
 
 permalink: /:year-:month/:title
 timezone: Asia/Shanghai
@@ -24,9 +24,9 @@ giscus: true
     #app_id:
 
 user:
-  name: 追
+  name: 
   pic: /assets/img/avatar.jpg
-  picAlt: "RiverOnVenus"
+  picAlt: ""
   search: true
   about: true
   feed: true
