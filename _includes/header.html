@@ -7,10 +7,9 @@
       <a class="header_circle" href="{{ '/' | relative_url }}">
       <img src="{{ site.user.pic | relative_url }}" alt="{{ site.user.picAlt }}">
       </a>
-      <span class="header_name">{{ site.user.name }}</span>
-      <span class="header_job">
-      </span>
-      <span class="header_mes">{{ site.user.message }}</span>
+    <span class="header_name">{{ site.user.name }}</span>
+    <span class="header_job">{{ site.user.job }}</span>
+    <span class="header_mes">{{ site.user.message }}</span>
       <nav class="nav">
          {% for category in site.categories %}
          {% capture cat_name %}{{ category | first }}{% endcapture %}
@@ -21,34 +20,6 @@
             </li>
          </ul>
          {% endfor %}
-         {% if site.user.search %}
-         <ul class="nav_list">
-            <li class="nav_item">
-               <a href="{{ site.baseurl }}/search.html">search</a>
-            </li>
-         </ul>
-         {% endif %}
-         {% if site.user.about %}
-         <ul class="nav_list">
-            <li class="nav_item">
-               <a href="{{ site.baseurl }}/about.html">about</a>
-            </li>
-         </ul>
-         {% endif %}
-         {% if site.user.feed %}
-         <ul class="nav_list">
-            <li class="nav_item">
-               <a href="{{ site.baseurl }}/feed.xml">feed</a>
-            </li>
-         </ul>
-         {% endif %}
-          {% if site.user.key %}
-         <ul class="nav_list">
-            <li class="nav_item">
-               <a href="https://github.com/riveronvenus.gpg">key</a>
-            </li>
-         </ul>
-         {% endif %}
       </nav>
    </div>
 </header>
