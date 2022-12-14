@@ -1,9 +1,9 @@
 title: I'm whikk!
 #description: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url:
+url: https://whikk.github.io/
 
-author:
+author: whikk
   name: 
   email: 
 
@@ -19,7 +19,7 @@ favicon: /assets/img/favicon.ico
 
 #disqus_shortname:
 #gitalk:
-giscus: true
+#giscus:
 #cusdis:
     #app_id:
 
