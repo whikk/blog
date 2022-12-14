@@ -1,40 +1,24 @@
-title: I'm whikk!
-#description: 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://whikk.github.io/
-
-author: whikk
-  name: 윤아
-  email: liwhikku@gmail.com
-
-twitter:
-  username:
+title: 윤아 #Your awesome title
+description: Hi~
+email: liwhikku@gmail.com
+url: https://whikk.github.io
 
 permalink: /:year-:month/:title
-timezone: Asia/Shanghai
+timezone: 
 
-favicon: /assets/img/favicon.ico
-
-#google_analytics: 
-
-#disqus_shortname:
-#gitalk:
-#giscus:
-#cusdis:
-    #app_id:
+favicon: /assets/img/avatar.jpg
 
 user:
   name: 윤아
   pic: /assets/img/avatar.jpg
   picAlt: "윤아"
-  job: Hi~ I'm student
+  job: Hi~
 
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-spaceship
 
 exclude:
   - README.md
@@ -47,7 +31,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comment: true
+      comment: true   
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 
