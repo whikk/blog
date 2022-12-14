@@ -4,8 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://whikk.github.io/
 
 author: whikk
-  name: 
-  email: 
+  name: 윤아
+  email: liwhikku@gmail.com
 
 twitter:
   username:
@@ -24,13 +24,10 @@ favicon: /assets/img/favicon.ico
     #app_id:
 
 user:
-  name: 
+  name: 윤아
   pic: /assets/img/avatar.jpg
-  picAlt: ""
-  search: true
-  about: true
-  feed: true
-  key: true
+  picAlt: "윤아"
+  job: Hi~ I'm student
 
 plugins:
   - jekyll-include-cache
@@ -38,13 +35,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-spaceship
-
-jekyll-spaceship:
-  element-processor:
-    css:
-      - a:
-          props:
-            loading: lazy
 
 exclude:
   - README.md
